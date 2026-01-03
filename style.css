@@ -13,15 +13,17 @@ body {
 }
 
 button {
-    font-size: 15px;
-    font-weight: 400;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
     color: #ffffff;
     font-family: 'Mulish', sans-serif;
 }
 
 p {
+    line-height: 1.5;
     font-size: 16px;
-    color: #a1a1a1;
+    color: #b5b5b5;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -71,7 +73,7 @@ header a {
     display: inline-flex;
     box-sizing: border-box;
     box-shadow: transparent;
-    padding: 10px 5px 10px 5px;
+    padding: 12px 5px 12px 5px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -127,20 +129,16 @@ header i {
 }
 
 .hero div button {
-    border: none;
     color: white;
-    font-size: 16px;
-    font-weight: 500;
     border-radius: 500px;
     margin: 15px 5px 15px 0;
-    padding: 5px 15px 5px 5px;
+    padding: 5px 0px 5px 5px;
     background-color: #00000000;
     box-shadow: 0 0 1.5px rgb(255, 255, 255);
 }
 
-.hero div button:nth-of-type(2),
-.hero div button:nth-of-type(3) {
-    padding: 5px 0 5px 5px;
+.hero a:nth-of-type(1) button {
+    padding: 5px 15px 5px 5px;
 }
 
 .hero div button span {
@@ -151,13 +149,14 @@ header i {
     display: inline;
 }
 
+
 .hero i {
     padding: 12px;
     color: #000000;
     margin-right: 5px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: #ffffff;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
 }
 
 
@@ -194,11 +193,11 @@ header i {
     padding: 25px 12% 25px 12%;
 }
 
-.about div:nth-of-type(1){
+.about > div:nth-of-type(1){
     width: 50%;
 }
 
-.about div:nth-of-type(2){
+.about > div:nth-of-type(2){
     width: 50%;
 }
 
@@ -217,24 +216,26 @@ header i {
 }
 
 .skills h3 {
+    font-size: 17px;
+    font-weight: 500;
     padding-left: 10px;
     border-left: 3px solid #ffffff;
 }
 
 .skills button {
     border: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
     display: inline-flex;
     align-items: center;
     margin: 5px 5px 2px 0;
     border-radius: 5px;
-    background-color: #00000000;
+    background-color: #ffffff;
     box-shadow: 0 0 0 0.5px rgba(81, 81, 81, 0.74);
 }
 
 .skills button:hover {
-    background-color: #1a1a1a9d;
+    background-color: #a1a1a1;
 }
 
 .skills img {
@@ -326,4 +327,66 @@ footer div {
 
 footer p {
     color: #ffffff;
+}
+
+/* Mobile CSS */
+
+@media (max-width: 768px){
+
+    /* HEADER SECTION */
+
+    header {
+        top: auto;
+        bottom: 2px;
+        margin-bottom: 15px;
+        z-index: 100;
+    }
+
+    header a {
+        padding: 15px 7px 15px 7px;
+    }
+
+    nav a span {
+        display: none;
+    }
+
+
+    /* HERO SECTION */
+
+    .hero {
+        gap: 50px;
+        width: 100%;
+        margin: 0;
+        padding: 10% 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero div h1 {
+        font-size: 45px;
+    }
+
+    .hero > div:nth-of-type(1),
+    .hero > div:nth-of-type(2) {
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    /* ABOUT SECTION */
+
+    .about {
+        gap: 50px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about > div:nth-of-type(1),
+    .about > div:nth-of-type(2) {
+        width: 100%;
+        padding: 10px;
+    }
 }
