@@ -90,6 +90,50 @@ header i {
     margin-right: 5px;
 }
 
+/* TAB SECTION */
+
+.tabBtns {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabBtns > button {
+    font-size: 16px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #000000;
+    box-shadow: 0 0 2px rgba(63, 78, 245, 0.7);
+}
+
+.tabContent {
+    gap: 15px;
+    display: none;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #0e0e0e;
+}
+
+.tabContent > div:nth-of-type(2) {
+    padding: 15px;
+}
+
+.tabBtn.active {
+    border-radius: 10px 10px 0 0;
+    background-color: #505EF8B3;
+}
+
+.tabContent.active {
+    display: inline-block;
+    border: solid #505EF8B3;
+    border-width: 0 1px 1px 1px;
+    border-radius: 0 0 10px 10px;
+}
+
+.tabContent.active img {
+    border-radius: 0;
+}
+
 /* Hero Section */
 
 .hero {
@@ -218,6 +262,7 @@ header i {
 .skills h3 {
     font-size: 17px;
     font-weight: 500;
+    margin: 17px 0px;
     padding-left: 10px;
     border-left: 3px solid #ffffff;
 }
@@ -244,61 +289,45 @@ header i {
     margin-right: 8px;
 }
 
-/* Projects */
+/* PROJECTS SECTION */
 
 .projects {
+    gap: 50px;
+    display: flex;
+    align-items: center;
     padding: 5% 12% 3% 12%;
 }
 
-.projects h2 {
-    margin: 0;
-}
-
 .projects > div:nth-of-type(1) {
-    display: flex;
-    align-items: center;
-    margin: 0 0 50px 0;
-    flex-direction: column;
+    width: 60%;
 }
 
-.myProjects {
-    display: flex;
-    justify-content: space-evenly;
+.projects > div:nth-of-type(2) {
+    width: 40%;
 }
 
-.pgtCards {
-    width: 30%;
-    border-radius: 10px;
-    box-shadow: 0 0 1px rgb(145, 145, 145);
-}
-
-.pgtCards img {
+.projects img {
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
 
-.pgtContent {
-    padding: 15px;
+.techUsed > button,
+.cta-Btns > button {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: #1a1a1a;
 }
 
-.pgtTech button {
-    border: none;
-    color: #fff;
-    padding: 3px;
-    font-size: 11px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    background-color: #242424;
+.cta-Btns > button {
+    color: black;
+    background-color: white;
 }
 
-.pgtCheck button {
-    border: none;
-    font-size: 12px;
-    color: #000;
-    padding: 3px;
-    margin: 5px 3px 5px 0;
-    border-radius: 5px;
-    background-color: #ffffff;
+.projects h2, h3 {
+    margin: 0;
 }
 
 .showMore {
@@ -386,6 +415,23 @@ footer p {
 
     .about > div:nth-of-type(1),
     .about > div:nth-of-type(2) {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* PROJECTS SECTION */
+
+    .projects {
+        gap: 50px;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .projects > div:nth-of-type(1),
+    .projects > div:nth-of-type(2) {
         width: 100%;
         padding: 10px;
     }
