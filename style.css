@@ -3,7 +3,7 @@
 }
 
 body {
-    width: 100%;
+    max-width: 100%;
     color: white;
     overflow-x: hidden;
     background-color: #000000;
@@ -60,7 +60,7 @@ nav {
     align-items: center;
     display: inline-flex;
     justify-content: center;
-    background-color: #0a0a0a;
+    background-color: #0a0a0ae5;
     box-shadow: 0 0 1px rgb(145, 145, 145);
 
 }
@@ -111,7 +111,7 @@ header i {
     display: none;
     padding-bottom: 10px;
     border-radius: 10px;
-    background-color: #0e0e0e;
+    background-color: #00000000;
 }
 
 .tabContent > div:nth-of-type(2) {
@@ -124,7 +124,7 @@ header i {
 }
 
 .tabContent.active {
-    display: inline-block;
+    display: block;
     border: solid #505EF8B3;
     border-width: 0 1px 1px 1px;
     border-radius: 0 0 10px 10px;
