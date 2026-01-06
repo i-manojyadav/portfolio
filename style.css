@@ -55,12 +55,12 @@ header {
 
 nav {
     gap: 15px;
-    padding: 0 13px;
+    padding: 2px 13px;
     border-radius: 25px;
     align-items: center;
     display: inline-flex;
     justify-content: center;
-    background-color: #0a0a0ae5;
+    background-color: #0a0a0aee;
     box-shadow: 0 0 1px rgb(145, 145, 145);
 
 }
@@ -271,6 +271,7 @@ header i {
     border: none;
     color: #000000;
     font-size: 14px;
+    padding: 5px 8px;
     display: inline-flex;
     align-items: center;
     margin: 5px 5px 2px 0;
@@ -330,20 +331,6 @@ header i {
     margin: 0;
 }
 
-.showMore {
-    display: flex;
-    margin-top: 25px;
-    align-items: center;
-    justify-content: center;
-}
-
-.showMore button {
-    border: none;
-    color: #000000;
-    padding: 8px 15px;
-    border-radius: 8px;
-}
-
 /* Footer */
 
 footer div {
@@ -367,7 +354,7 @@ footer p {
     header {
         top: auto;
         bottom: 2px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         z-index: 100;
     }
 
