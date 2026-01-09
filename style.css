@@ -12,8 +12,8 @@ body {
     overflow-x: hidden;
     background-color: #000000;
     font-family: "Lato", sans-serif;
-    background: radial-gradient(circle at 50% -60%, #11314e, #000000);
     background-attachment: scroll;
+    background: radial-gradient(circle at 50% -60%, #11314e, #000000);
 }
 
 button {
@@ -33,7 +33,7 @@ a {
 p {
     line-height: 1.5;
     font-size: 16px;
-    color: #b5b5b5;
+    color: #c4c4c4;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -52,7 +52,94 @@ b {
     background-color: white;
 }
 
-/* Header */
+/* THEME MODE */
+
+body.light-mode {
+    color: black;
+    background: radial-gradient(circle at 50% -60%, #81bef7, #ffffff);
+}
+
+body.light-mode h1 {
+    color: black;
+}
+
+body.light-mode p {
+    color: #161616;
+}
+
+body.light-mode b {
+    color: black;
+}
+
+body.light-mode .highlights {
+    color: white;
+    background-color: black;
+}
+
+/* HEADER */
+
+body.light-mode nav {
+    background-color: #ffffffee;
+}
+
+body.light-mode nav a {
+    color: #000000;
+}
+
+body.light-mode header a:hover {
+    background-color: #e8e8e8;
+}
+
+/* TABS */
+
+body.light-mode .tabBtns > button {
+    color: black;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(63, 78, 245, 0.7);
+}
+
+body.light-mode .tabContent {
+    background-color: transparent;
+}
+
+body.light-mode .tabBtn.active {
+    color: white;
+    background-color: #505EF8B3;
+}
+
+/* HERO SECTION */
+
+body.light-mode .hero div h1 {
+    color: black;
+}
+
+body.light-mode .hero div button {
+    color: black;
+    background-color: transparent;
+    box-shadow: 1px 1px 1.5px rgb(46, 46, 46);
+}
+
+body.light-mode .hero i {
+    background-color: transparent;
+}
+
+body.light-mode .codecard {
+    background-color: #000000d2;
+    border-left: 5px solid rgb(52, 52, 52);
+}
+
+/* ABOUT SECTION */
+
+body.light-mode .skills h3 {
+    border-left: 3px solid #000000;
+}
+
+body.light-mode .skills button {
+    color: black;
+}
+
+
+/* HEADER */
 
 header {
     top: 2%;
@@ -100,7 +187,7 @@ header i {
     margin-right: 5px;
 }
 
-/* TAB SECTION */
+/* TABS */
 
 .tabBtns {
     display: flex;
@@ -144,7 +231,7 @@ header i {
     border-radius: 0;
 }
 
-/* Hero Section */
+/* HERO SECTION */
 
 .hero {
     gap: 5%;
@@ -172,7 +259,7 @@ header i {
 }
 
 .hero div p:nth-of-type(2){
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
     margin: 15px 0 15px 0;
     text-transform: uppercase;
@@ -188,7 +275,7 @@ header i {
     margin: 15px 5px 15px 0;
     padding: 5px 0px 5px 5px;
     transition-duration: 1s;
-    background-color: #00000000;
+    background-color: transparent;
     box-shadow: 0 0 1.5px rgb(255, 255, 255);
 }
 
@@ -212,7 +299,6 @@ header i {
     background-color: #ffffff;
     border: 1px solid #000000;
 }
-
 
 .hero div button:hover {
     color: #000000;
@@ -238,7 +324,7 @@ header i {
     margin-right: 10px;
 }
 
-/* About Section*/
+/* ABOUT SECTION */
 
 .about {
     gap: 5%;
@@ -288,10 +374,6 @@ header i {
     border-radius: 5px;
     background-color: transparent;
     box-shadow: 0 0 0 0.5px rgba(81, 81, 81, 0.74);
-}
-
-.skills button:hover {
-    background-color: #00000041;
 }
 
 .skills img {

@@ -13,3 +13,11 @@ tabBtns.forEach(button => {
         button.nextElementSibling.classList.add("active");
     });
 });
+
+// THEME MODE
+
+const lightMode = document.querySelector(".light-mode");
+
+lightMode.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+});
