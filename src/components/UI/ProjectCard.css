@@ -1,0 +1,46 @@
+.project-card {
+    border: solid var(--tab);
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0 0 10px 10px;
+    background-color: transparent;
+}
+
+.project-img img {
+    width: 100%;
+    border-radius: 0;
+}
+
+.project-info {
+    padding: 5px 15px 15px 15px;
+}
+
+.tech-used {
+    margin-top: 15px;
+}
+
+.project-card button {
+    margin: 5px 5px 5px 0;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tech-used > button {
+    color: #ffffff;
+    background-color: var(--pgtBtnBG);
+}
+
+.cta-btn > a {
+    margin: 3px;
+    color: var(--a);
+    font-size: 13px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: var(--ctaBtnBG);
+    box-shadow: 0 0 1.5px var(--boxShadow);
+}
+
+.cta-btn a button {
+    padding: 0;
+    color: var(--ctaBtnText);
+}

@@ -1,0 +1,53 @@
+.projects {
+    gap: 5%;
+    display: flex;
+    padding: 100px 12% 100px 12%;
+}
+
+.projects-info {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.project-list {
+    width: 40%;
+}
+
+.project-list > button {
+    width: 100%;
+    display: flex;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 13px 10px;
+    flex-direction: column;
+    box-shadow: 0 0 2px var(--tab);
+}
+
+.activeTab {
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+    background-color: var(--tab);
+}
+
+.tab {
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+@media(max-width: 768px) {
+    .projects {
+        gap: 60px;
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+    }
+
+    .projects-info {
+        width: 100%;
+    }
+
+    .project-list {
+        width: 100%;
+    }
+}

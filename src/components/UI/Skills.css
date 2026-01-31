@@ -1,0 +1,13 @@
+.skills-tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills h3 {
+    display: flex;
+    margin: 15px 0;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+    border-left: 3px solid var(--border);
+}

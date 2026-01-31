@@ -1,0 +1,49 @@
+header {
+    top: 3%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    gap: 5px;
+    padding: 15px 20px;
+    border-radius: 100px;
+    background-color: var(--headerBG);
+    box-shadow: 0 0 1px var(--boxShadow);
+}
+
+header i {
+    margin-right: 5px;
+}
+
+header a {
+    color: var(--a);
+    padding: 8px 10px;
+    border-radius: 100px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+header a:hover {
+    box-shadow: 0 0 1.5px var(--boxShadow);
+}
+
+
+@media (max-width: 768px) {
+    header {
+        top: auto;
+        bottom: 2px;
+        margin-bottom: 35px;
+    }
+
+    nav {
+        padding: 18px 20px;
+    }
+
+    header nav span {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+.education-item {
+    gap: 25px;
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.education-item img {
+    width: 55px;
+    height: 55px;
+}
+
+.education-item p {
+    padding: 0;
+    margin: 3px;
+}

@@ -1,0 +1,10 @@
+.skill-tag button {
+    border: none;
+    font-size: 14px;
+    color: var(--a);
+    padding: 6px 8px;
+    border-radius: 5px;
+    margin: 5px 8px 10px 0;
+    background-color: transparent;
+    box-shadow: 0 0 1.5px var(--boxShadow);
+}

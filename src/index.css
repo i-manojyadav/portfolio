@@ -1,0 +1,118 @@
+:root {
+  --bodyBG: radial-gradient(circle at 50% -90%, #0d2a43, #000000);
+  --a: #ffffff;
+  --p: #c4c4c4;
+  --b: #ffffff;
+  --icon: #ffffff;
+  --border: #ededed;
+  --heading: #ffffff;
+  --heroIcon: #000000;
+  --cardBG: #111111d3;
+  --headerBG: #111111;
+  --footerBG: #000000;
+
+  --tab: #505ef8b3;
+  --pgtBtnBG: #272727;
+
+  --ctaBtnBG: #ffffff;
+  --ctaBtnText: #000000;
+
+  --heroBtnBG: #ffffff;
+  --heroIBorder: #000000;
+
+  --highlightText: #000000;
+  --boxShadow: rgb(145, 145, 145);
+}
+
+.light {
+  --bodyBG: radial-gradient(circle at 50% -90%, #c3e3ff, #ffffff);
+  --a: #000000;
+  --p: #101010;
+  --b: #000000;
+  --icon: #000000;
+  --border: #111111;
+  --heading: #000000;
+  --heroIcon: #000000;
+  --cardBG: #111111d3;
+  --headerBG: #ffffff;
+
+  --tab: #505ef8b3;
+  --pgtBtnBG: #272727;
+
+  --ctaBtnBG: #ffffff;
+  --ctaBtnText: #000000;
+
+  --heroBtnBG: #ffffff;
+  --heroIBorder: #000000;
+  
+  --highlightText: #ffffff;
+  --boxShadow: rgb(145, 145, 145);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background: var(--bodyBG);
+}
+
+button {
+  border: none;
+  color: var(--a);
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  font-size: 75px;
+  color: var(--heading);
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  margin: 15px 0;
+  font-size: 25px;
+  color: var(--heading);
+  font-family: "Lato", sans-serif;
+}
+
+h3 {
+  margin: 15px 0;
+  font-size: 20px;
+  color: var(--heading);
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  font-size: 16px;
+  color: var(--a);
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: var(--p);
+  line-height: 1.5;
+  font-family: 'Mulish', sans-serif;
+}
+
+b {
+  color: var(--b);
+}
+
+.highlight {
+  width: fit-content;
+  color: var(--highlightText);
+  font-weight: 700;
+  padding: 7px 12px;
+  border-radius: 5px;
+  background-color: var(--b);
+}
