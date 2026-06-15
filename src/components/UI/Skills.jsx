@@ -11,11 +11,16 @@ function Skills() {
                 <SkillTag skill="CSS"/>
                 <SkillTag skill="JavaScript"/>
             </div>
-            <h3>Frameworks</h3>
+            <h3>Frameworks & Libraries</h3>
             <div className='skills-tag'>
-                <SkillTag skill="ReactJS"/>
-                <SkillTag skill="NodeJS"/>
+                <SkillTag skill="React.js"/>
+                <SkillTag skill="Express.js"/>
+                <SkillTag skill="Bootstrap"/>
                 <SkillTag skill="Tailwind CSS"/>
+            </div>
+            <h3>Runtime Environment</h3>
+            <div className='skills-tag'>
+                <SkillTag skill="Node.js"/>
             </div>
             <h3>Database</h3>
             <div className='skills-tag'>

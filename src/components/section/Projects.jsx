@@ -16,7 +16,7 @@ function Projects() {
             </div>
             <div className='project-list'>
                 <button className={activeTab === "AssetMitra" ? "activeTab" : "tab"} onClick={() => setActiveTab("AssetMitra")}>AssetMitra</button>
-                {activeTab === "AssetMitra" && <div>{<ProjectCard img={AssetMitraIMG} title={"AssetMitra"} desc={"It offers a free all-in-one virtual portfolio to track stocks, FDs, and crypto, along with a built-in trading journal to manage and analyze investments and trades efficiently."} techUsed={["React", "Tailwind"]} gitLink={"https://github.com/i-manojyadav/assetmitra"} demoLink={"https://assetmitra.vercel.app/"} />}</div>}
+                {activeTab === "AssetMitra" && <div>{<ProjectCard img={AssetMitraIMG} title={"AssetMitra"} desc={"It offers a free all-in-one virtual portfolio to track stocks, FDs, and crypto, along with a built-in trading journal to manage and analyze investments and trades efficiently."} techUsed={["React.js", "JavaScript"]} gitLink={"https://github.com/i-manojyadav/assetmitra"} demoLink={"https://assetmitra.vercel.app/"} />}</div>}
                 <button className={activeTab === "Project2" ? "activeTab" : "tab"} onClick={() => setActiveTab("Project2")}>Project 2</button>
                 {activeTab === "Project2" && <p>Soon...</p>}
                 <button className={activeTab === "Project3" ? "activeTab" : "tab"} onClick={() => setActiveTab("Project3")}>Project 3</button>

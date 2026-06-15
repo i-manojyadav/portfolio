@@ -22,9 +22,8 @@ function Hero() {
                     <p>I'm a MERN Stack Developer specializing in building modern, responsive, and high-performance web applications. I work with <b>React, Express.js, JavaScript, Tailwind CSS, Node.js,</b> and more...</p>
                 </div>
                 <div className='hero-btn'>
-                    <a><button><i class="fa-solid fa-download"></i> Resume</button></a>
-                    <a><button><i class="fa-brands fa-linkedin"></i></button></a>
-                    <a><button><i class="fa-brands fa-github"></i></button></a>
+                    <a href="https://www.linkedin.com/in/imanojyadav"><button><i class="fa-brands fa-linkedin"></i> LinkedIn</button></a>
+                    <a href="https://github.com/i-manojyadav"><button><i class="fa-brands fa-github"></i></button></a>
                 </div>
             </div>
 
