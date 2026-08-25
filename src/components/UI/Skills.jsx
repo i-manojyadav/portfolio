@@ -5,26 +5,29 @@ function Skills() {
     return (
         <div className='skills'>
             <h2>Skills</h2>
-            <h3>Languages</h3>
             <div className='skills-tag'>
                 <SkillTag skill="HTML"/>
                 <SkillTag skill="CSS"/>
-                <SkillTag skill="JavaScript"/>
-            </div>
-            <h3>Frameworks & Libraries</h3>
-            <div className='skills-tag'>
+                <SkillTag skill="JavaScript (ES6+)"/>
                 <SkillTag skill="React.js"/>
-                <SkillTag skill="Express.js"/>
+                <SkillTag skill="Material UI"/>
                 <SkillTag skill="Bootstrap"/>
                 <SkillTag skill="Tailwind CSS"/>
-            </div>
-            <h3>Runtime Environment</h3>
-            <div className='skills-tag'>
+                <SkillTag skill="EJS"/>
                 <SkillTag skill="Node.js"/>
-            </div>
-            <h3>Database</h3>
-            <div className='skills-tag'>
-            <SkillTag skill="MongoDB"/>
+                <SkillTag skill="Express.js"/>
+                <SkillTag skill="REST APIs"/>
+                <SkillTag skill="MongoDB"/>
+                <SkillTag skill="Mongoose"/>
+                <SkillTag skill="SQL (Basics)"/>
+                <SkillTag skill="Psssport.js"/>
+                <SkillTag skill="Session-based Authentication"/>
+                <SkillTag skill="Authorization"/>
+                <SkillTag skill="Git" />
+                <SkillTag skill="GitHub" />
+                <SkillTag skill="Vercel" />
+                <SkillTag skill="Render" />
+                <SkillTag skill="VS Code" />
             </div>
         </div>
     )

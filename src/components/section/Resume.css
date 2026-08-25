@@ -1,19 +1,12 @@
 .resume {
     gap: 5%;
+    width: 100%;
     display: flex;
     padding: 10px 12% 75px 12%;
 }
 
-.resume h2 {
-    margin-bottom: 35px;
-}
-
-.education {
-    width: 50%;
-}
-
-.skills {
-    width: 50%;
+.resume > div {
+    width: 100%;
 }
 
 @media(max-width: 768px) {
